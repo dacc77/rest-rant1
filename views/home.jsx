@@ -1,15 +1,15 @@
-const React = require('react')
-const Def = require('./default')
+// views/home.jsx
+const React = require('react');
+const Def = require('./default');
 
-function home () {
+function Home() {
     return (
         <Def>
-        <main>
-             <h1>Home</h1>
-        </main>
+            <main>
+                <h1>Home</h1>
+            </main>
         </Def>
-        )
-    }
+    );
+}
 
-
-module.exports = home
+module.exports = Home;

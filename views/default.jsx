@@ -1,16 +1,19 @@
-const React = require ('react')
+// views/default.jsx
+const React = require('react');
 
-function Def (html) {
+function Def({ children }) {
     return (
         <html>
             <head>
                 <title>Title</title>
             </head>
             <body>
-                {html.children}
+                {children}
             </body>
         </html>
-    )
+    );
 }
 
-module.exports = Def
+module.exports = Def;
+
+
